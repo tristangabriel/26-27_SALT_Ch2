@@ -1,7 +1,7 @@
 
 ans=[]
 
-def trying(n, g):
+def trying(n, g): #code in E
     a=''
     a += ("U"*g[0])
     a += ("R")
@@ -48,7 +48,7 @@ def sol(s):
             return 0
 
 s = input()
-if sol(s) and trying(len(ans), ans)==s:
+if sol(s) and trying(len(ans), ans)==s: #check if true and matching
     print(len(ans))
     print(*ans)
 else:

@@ -1,3 +1,5 @@
+#wrong answer
+
 t = int(input())
 
 
@@ -28,7 +30,7 @@ for i in range(t):
             a = 1 + 1 + 1 + (n//67 - 67) + n%67
             print(a)
         elif k >= 3:
-            a = 1 + 1 + 1 + 1 + (n//67-67**2) + ((n//(67**2)) - 67) + n%67
+            a = 1 + 1 + 1 + 1 + ((n//(67**2)) - 67) + (n//67) + n%67
             print(a)
         else:
             print(n)

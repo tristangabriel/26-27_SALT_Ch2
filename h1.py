@@ -20,6 +20,8 @@ def solve(n):
         swap(d[1], d[1]+1)
     while (d[1] > d[n]+1):
         swap(d[1], d[1]-1)
+    while (d[2] < d[n] and d[2]<n-2):
+        swap(d[2], d[2]+2)
 
     #turns it into ...2 1 n
     swap(d[2], d[n])
